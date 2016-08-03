@@ -1,6 +1,6 @@
 require 'pg'
 
-db_conn = PG.connect(:dbname => 'devflix', :host => 'localhost')
+db_conn = PG.connect(:dbname => 'funmovies', :host => 'localhost')
 
 movies = File.new("data/movies.csv", "a+")
 theaters = File.new("data/theaters.csv", "a+")
